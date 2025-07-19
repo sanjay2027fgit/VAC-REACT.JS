@@ -1,0 +1,55 @@
+/* Navbar Main Container */
+nav.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background: rgba(255, 255, 255, 0.25); /* Initial transparent */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  transition: background 0.3s ease-in-out;
+}
+
+/* Title Styling */
+.nav-title {
+  font-size: 1.8rem;
+  color: #1e3c72;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.5);
+  transition: color 0.3s ease;
+}
+
+/* Link Container */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Individual Navigation Buttons */
+.nav-btn {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding: 10px 22px;
+  border-radius: 30px;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+  box-shadow: 0 8px 20px rgba(102, 166, 255, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effects */
+.nav-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(102, 166, 255, 0.5);
+  background: linear-gradient(to right, #66a6ff, #89f7fe);
+  color: #000;
+}
