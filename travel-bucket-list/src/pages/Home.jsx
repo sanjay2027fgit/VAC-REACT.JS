@@ -9,7 +9,7 @@ export default function Home() {
         <p className="home-subtitle">
           Plan your dream destinations and visualize them on a map.
         </p>
-        <Link to="/bucketlist" className="home-btn">
+        <Link to="/Login" className="home-btn">
           Start Your Journey
         </Link>
       </div>
